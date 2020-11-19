@@ -31,6 +31,11 @@ Based on the whole data, the true positive rate is slightly higher than other ra
 ## 3. The Accuracy Rate and the True Rates: 4 time-delay groups
 <p align="center"><img src="images/table2.png"></p>
 <h4 align="center">Table 2: Two-way table of the Immediate group</h4>
+- Accuracy = (181+304) / 885 = 0.55
+- True Positive Rate = 181 / (181+87+170) = 0.41
+- True Negative Rate = 304 / (304+143) = 0.68
+
+Based on the Immediate group (Table 2), the overall accuracy and true negative rate are higher than 50%. Especially, the true negative rate is 0.68 which means that 68% of participants tended not to choose innocent person immediately after they witnessed the face of the actor. However, even right after the witnessing, the percentage of choosing the right target among photos with a target is less than a half—the true positive rate.
 
 <p align="center"><img src="images/table3.png"></p>
 <h4 align="center">Table 3: Two-way table of the 2-day group</h4>
