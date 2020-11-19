@@ -50,5 +50,23 @@ Based on the 2-day data (Table 3), all rates are decreased compared to the immed
 <p align="center"><img src="images/table4.png"></p>
 <h4 align="center">Table 4: Two-way table of the 4-day group</h4>
 
+- Accuracy = (130+192) / 932 = 0.35
+- True Positive Rate = 130 / (130+168+175) = 0.27
+- True Negative Rate = 192 / (192+267) = 0.42
+
 <p align="center"><img src="images/table5.png"></p>
 <h4 align="center">Table 5: Two-way table of the 8-day group</h4>
+
+- Accuracy = (101+233) / 962 = 0.35
+- True Positive Rate = 101 / (101+193+181) = 0.21
+- True Negative Rate = 233 / (233+254) = 0.48
+
+Based on the 4-day (Table 4) and 8-day data (Table 5), the accuracy doesn’t change, the true positive rate decreases, and the true negative rate increases. Overall, the rates are decreased as the time delays, but the rates change notedly from the immediate to 2-day delays.
+
+<p align="center"><img src="images/delay_rate.png"></p>
+<h4 align="center">Figure 1: Accuracy and true rates by the time delay</h4>
+
+Figure 1 shows the combined results of accuracy and true rates from Table 2-5. The overall of the delay time, the true positive rates are the lowest. Hence, the rate of choosing a culprit among several photos with the real culprit are not very reliable.
+
+## 4. Other significant variables
+To explore whether there are variables that influence the connection of Accuracy and Delay, I fit several logistic regression models. The first model is fitted with all the variables except participant specific values, and then additional models are fitted removing less significant variables based on p-values.
