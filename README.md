@@ -31,6 +31,7 @@ Based on the whole data, the true positive rate is slightly higher than other ra
 ## 3. The Accuracy Rate and the True Rates: 4 time-delay groups
 <p align="center"><img src="images/table2.png"></p>
 <h4 align="center">Table 2: Two-way table of the Immediate group</h4>
+
 - Accuracy = (181+304) / 885 = 0.55
 - True Positive Rate = 181 / (181+87+170) = 0.41
 - True Negative Rate = 304 / (304+143) = 0.68
@@ -39,6 +40,12 @@ Based on the Immediate group (Table 2), the overall accuracy and true negative r
 
 <p align="center"><img src="images/table3.png"></p>
 <h4 align="center">Table 3: Two-way table of the 2-day group</h4>
+
+- Accuracy = (128+217) / 865 = 0.40
+- True Positive Rate = 128 / (128+135+169) = 0.30
+- True Negative Rate = 217 / (217+216) = 0.50
+
+Based on the 2-day data (Table 3), all rates are decreased compared to the immediate data. Especially, the true negative rate is decreased by 18%.
 
 <p align="center"><img src="images/table4.png"></p>
 <h4 align="center">Table 4: Two-way table of the 4-day group</h4>
