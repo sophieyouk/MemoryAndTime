@@ -17,7 +17,7 @@ DelayImmediate 0.60297      0.09687     6.225   4.83e-10 ***
 Before dividing the data by the time delay groups, the whole data are used to calculate the accuracy and true positive/negative rates.
 
 ## 2. The Accuracy Rate and the True Rates: the whole data
-<p align="center"><img src="images/table1"></p>
+<p align="center"><img src="images/table1.png"></p>
 <h4 align="center">Table 1: Two-way table with the number of observations</h4>
 
 The above table shows the number of participants resulted as accurate or non-accurate on the tests with and without target photos regardless the time delay. The accuracy defines the overall correct result. The true positive rate defines the proportion of target-present observations that are answered (target was chosen) correctly. The true negative rate defines the proportion of target-absent observations that are answered (no targets were chosen) correctly.
@@ -29,14 +29,14 @@ Based on the whole data, the true positive rate is slightly higher than other ra
 
 
 ## 3. The Accuracy Rate and the True Rates: 4 time-delay groups
-<p align="center"><img src="images/table2"></p>
+<p align="center"><img src="images/table2.png"></p>
 <h4 align="center">Table 2: Two-way table of the Immediate group</h4>
 
-<p align="center"><img src="images/table3"></p>
+<p align="center"><img src="images/table3.png"></p>
 <h4 align="center">Table 3: Two-way table of the 2-day group</h4>
 
-<p align="center"><img src="images/table4"></p>
+<p align="center"><img src="images/table4.png"></p>
 <h4 align="center">Table 4: Two-way table of the 4-day group</h4>
 
-<p align="center"><img src="images/table5"></p>
+<p align="center"><img src="images/table5.png"></p>
 <h4 align="center">Table 5: Two-way table of the 8-day group</h4>
