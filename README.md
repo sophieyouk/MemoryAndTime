@@ -69,4 +69,19 @@ Based on the 4-day (Table 4) and 8-day data (Table 5), the accuracy doesn’t ch
 Figure 1 shows the combined results of accuracy and true rates from Table 2-5. The overall of the delay time, the true positive rates are the lowest. Hence, the rate of choosing a culprit among several photos with the real culprit are not very reliable.
 
 ## 4. Other significant variables
-To explore whether there are variables that influence the connection of Accuracy and Delay, I fit several logistic regression models. The first model is fitted with all the variables except participant specific values, and then additional models are fitted removing less significant variables based on p-values.
+To explore whether there are variables that influence the connection of ```Accuracy``` and ```Delay```, I fit several logistic regression models. The first model is fitted with all the variables except participant specific values, and then additional models are fitted removing less significant variables based on p-values.
+
+```
+                Estimate  Std. Error  z value   Pr(>|z|)
+(Intercept)    -0.937835    0.238867   -3.926   8.63e-05 ***
+Delay4day      -0.148719    0.105348   -1.412     0.1580
+Delay8day      -0.171781    0.104980   -1.636     0.1018
+DelayImmediate  0.554722    0.105787    5.244   1.57e-07 ***
+VideoWM         0.169672    0.073926    2.295     0.0217 *
+TPTATP         -0.879176    0.074347  -11.825    < 2e-16 ***
+ChooserYes     -1.156658    0.073968  -15.637    < 2e-16 ***
+Confidence      0.007762    0.001551    5.006   5.56e-07 ***
+CFMT.Raw        0.018085    0.003720    4.861   1.17e-06 ***
+```
+
+The above summary table shows the summary of the final model with 5 significant variables. ```Video``` has two race factors of actors, and ```TPTA``` indicates whether the target is present or absent. ```Chooser``` indicates whether a participant choose a photo or not, and ```Confidence``` has 6-scale values based on the level of confidence of participants. ```CFMT.Raw``` has results of the face recognition task.
